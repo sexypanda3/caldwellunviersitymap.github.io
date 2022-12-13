@@ -10,9 +10,11 @@ function othername() {
   if (anka == "CS 301") {  
   window.open('albertus.html'); 
   }
+
     else if (anka == "") {
       alert("Please Enter a CS Class Number!"); 
    }
+   
    else {
     alert("Please Enter a CS Class Number!"); 
    }
