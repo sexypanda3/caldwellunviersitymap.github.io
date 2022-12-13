@@ -11,7 +11,7 @@ function othername() {
   window.open('albertus115001.html'); 
   }
 
-    else if (anka = "") {
+    else if (anka == "") {
       alert("Please Enter a CS Class Number!"); 
    }
   
