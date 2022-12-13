@@ -1,21 +1,45 @@
 <!--Sankalpa Jung Pande, CS 230 001-->
 <html>
     <head>
-      <script src="script.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script src="script.js"></script> <!--Importing JavaScript-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> <!--Importing JQuery-->
+
       <link rel="icon" href="Misc/favicon.png"> <!--Adding Favicon-->
-      <link rel="stylesheet" href="style.css">
-      <title> Caldwell University Map</title>
+      <link rel="stylesheet" href="style.css"> <!--Importing CSS-->
+
+      <title> CS Class Finder</title>
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-      <meta name="theme-color"content= #linear-gradient(160deg, #f5898b, #ed335f,#761137) >
-      </head>
+    </head>
 
     <body>
-    <div id = "content1">
-      <p style="font-family:'Courier'">CALDWELL UNIVERSITY
-      </p>
-    </div>
-    <form id="form">
-      <input type="text" id="userInput" style="text-transform: uppercase">
-      <input type="submit" onclick="othername();" id = "center">
-    </form>
+      <div>
+        <p id = "content0">CALDWELL UNIVERSITY
+        <br id = "content2">120 Bloomfield Ave
+        <br id = "content2"> Caldwell, NJ 07006
+        </p>
+      </div>
+      <div id ="content1">
+        Hey, <br>
+        You can find information about <br>
+        your Computer Science class is <br>
+        by putting in your course code <br>
+        in the search bar.             <br>
+        (Example: CS 195 001)          <br>
+      </div>
+      <form id="form">
+        <input type="text" id="userInput" style="text-transform: uppercase" placeholder="Search...">
+        <button type="submit" onclick="othername();" id = "but"> <!--When executed, function defined in JavaScript executes-->
+      </form>
+        <div style = "
+        position: absolute;
+        bottom: 5px; 
+        font-size: medium;
+        font-family:'Courier';
+        margin: 0;">
+          A website by Pande, Sankalpa Jung.<br>
+        <a href="readme.html">ReadMe</a>
+        </div>
+    </body>
+</html>
+       
