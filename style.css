@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+ 
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+    height: 73%;
+    border-radius:19px;
+     box-shadow:grey;
+     opacity: 1;
+  }
+
+  #content1 {
+    height: 30%;
+    width: 100%;
+    background-color: #4a0100;
+   
+  }
+  
+  #content2 {
+    background-image: url('Misc/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  }
+  
+  
