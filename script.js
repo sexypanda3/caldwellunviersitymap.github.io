@@ -16,8 +16,8 @@ function othername() {
    }
    
    else {
-    alert("Please Enter a CS Class Number!"); 
+    $("h1").remove();
    }
-   return false;
+   return true;
 }
 

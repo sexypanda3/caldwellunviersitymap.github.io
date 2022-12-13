@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #f5f3ff;
   margin: 0;
   padding: 0;
 }
@@ -18,18 +18,12 @@ body {
   #content1 {
     height: 30%;
     width: 100%;
-    background-color: #4a0100;
+    background-color: #f5f3ff;
    
   }
   
   #content2 {
-    background-image: url('Misc/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   margin: 0;
-  padding: 0;
   }
   
   
